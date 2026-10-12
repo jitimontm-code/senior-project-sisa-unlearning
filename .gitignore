@@ -1,0 +1,42 @@
+# Raw or derived data
+data/
+*.csv
+*.csv.gz
+*.parquet
+*.zip
+!results/
+!results/*.csv
+
+# Models, checkpoints, and caches
+*.pkl
+*.pickle
+*.joblib
+*.npz
+models/
+checkpoints/
+cache/
+outputs_final/
+outputs_restored/
+artifacts/
+
+# Local environments and notebook state
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.jupyter/
+.vscode/
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Credentials and local configuration
+kaggle.json
+*.pem
+*.key
+.aws/
